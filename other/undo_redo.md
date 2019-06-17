@@ -17,10 +17,10 @@ value: 数据块的值
 
 版本控制算法过程：
 if not 存在field
-    创建节点。
+​    创建节点。
 else
-    更新节点。
-    递归处理。
+​    更新节点。
+​    递归处理。
 
 ## 全部可持久化（full persisten）
 ## 可合并持久化（combine persisten）
@@ -66,7 +66,7 @@ t.b = obj2()
 t.a = t.b
 ```
 
-version构建：
+version构建： 
 
 ```text
 1. add A
@@ -92,3 +92,4 @@ undo序列：
 
 
 
+ 
