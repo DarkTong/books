@@ -49,3 +49,6 @@ a = Test()
 print(a.m_A)
 
 
+dict()
+list()
+Dict()
