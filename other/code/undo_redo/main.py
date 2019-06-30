@@ -2,6 +2,7 @@
 import types
 import weakref
 
+
 class CAction:
     pass
 
@@ -15,7 +16,7 @@ class CRecord:
     
     def Record(self, cls, *args, **kwargs):
         self.m_ClsOriNew[cls] = cls.__new__
-        cls.__new__ = self._NewClsNew
+        cls.__new__ = self._ClsNew
         return cls
     
     def _ClsNew(self, cls, *args, **kwargs):
@@ -47,8 +48,3 @@ class Test:
 
 a = Test()
 print(a.m_A)
-
-
-dict()
-list()
-Dict()
